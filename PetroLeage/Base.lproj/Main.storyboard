@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0Lf-tn-YOf">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="3qt-aV-6dg">
+            <objects>
+                <viewController id="s1a-Qe-Ohn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SW1-Sa-8xF"/>
+                        <viewControllerLayoutGuide type="bottom" id="zDt-sJ-OAZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cBs-nv-ehD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PetroLeage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Gb-VN-sgv">
+                                <rect key="frame" x="170" y="20" width="260" height="101"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="QxK-P4-w8Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="35"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Car's Brand" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9GF-iQ-Wif">
+                                <rect key="frame" x="25" y="127" width="149" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="149" id="7X2-pv-uA3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Car Model" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RsR-en-TdW">
+                                <rect key="frame" x="421" y="127" width="149" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="149" id="drO-PV-Kid"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Current estimated fuel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P2h-7L-uIL">
+                                <rect key="frame" x="170" y="219" width="260" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0Gb-VN-sgv" firstAttribute="top" secondItem="SW1-Sa-8xF" secondAttribute="bottom" id="Rd1-bB-bZA"/>
+                            <constraint firstItem="zDt-sJ-OAZ" firstAttribute="top" secondItem="0Gb-VN-sgv" secondAttribute="bottom" constant="479" id="UQ2-Dq-kQH"/>
+                            <constraint firstItem="P2h-7L-uIL" firstAttribute="top" secondItem="RsR-en-TdW" secondAttribute="bottom" constant="62" id="c2y-77-8Yy"/>
+                            <constraint firstItem="P2h-7L-uIL" firstAttribute="leading" secondItem="0Gb-VN-sgv" secondAttribute="leading" id="cbo-0c-9H9"/>
+                            <constraint firstItem="9GF-iQ-Wif" firstAttribute="baseline" secondItem="RsR-en-TdW" secondAttribute="baseline" id="dja-3x-L3e"/>
+                            <constraint firstItem="P2h-7L-uIL" firstAttribute="trailing" secondItem="0Gb-VN-sgv" secondAttribute="trailing" id="hUV-Qr-05q"/>
+                            <constraint firstItem="9GF-iQ-Wif" firstAttribute="leading" secondItem="cBs-nv-ehD" secondAttribute="leadingMargin" constant="9" id="j3q-0r-pqK"/>
+                            <constraint firstItem="9GF-iQ-Wif" firstAttribute="top" secondItem="0Gb-VN-sgv" secondAttribute="bottom" constant="6" id="rCG-b6-vas"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RsR-en-TdW" secondAttribute="trailing" constant="14" id="rxq-t5-na3"/>
+                            <constraint firstItem="0Gb-VN-sgv" firstAttribute="centerX" secondItem="cBs-nv-ehD" secondAttribute="centerX" id="ySa-gy-XDZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xil-9y-aXl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="228" y="-192"/>
+        </scene>
+        <!--Fuel Estimation Controller-->
+        <scene sceneID="sSj-6Z-2fo">
+            <objects>
+                <viewController id="VEU-Ar-YG7" customClass="FuelEstimationController" customModule="PetroLeage" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PbH-dU-wLW"/>
+                        <viewControllerLayoutGuide type="bottom" id="rq8-ws-fRo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FlE-TI-v62" customClass="GMSMapView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CGb-up-nMI" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="306" width="600" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tfc-kp-kiv">
+                                <rect key="frame" x="191" y="33" width="219" height="101"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="101" id="RyD-Ms-jCu"/>
+                                    <constraint firstAttribute="width" constant="219" id="bj9-CB-mi3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="26"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Initial Location" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fKI-n2-AAL">
+                                <rect key="frame" x="185" y="149" width="225" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Final Location" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kkA-Pw-uNR">
+                                <rect key="frame" x="185" y="229" width="225" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="nnl-sM-2ef"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbB-eJ-Zay">
+                                <rect key="frame" x="194" y="358" width="212" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="212" id="wAS-x9-IPA"/>
+                                </constraints>
+                                <state key="normal" title="Manage your fuel!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pbB-eJ-Zay" firstAttribute="top" secondItem="kkA-Pw-uNR" secondAttribute="bottom" constant="99" id="5GF-pJ-y83"/>
+                            <constraint firstItem="fKI-n2-AAL" firstAttribute="top" secondItem="Tfc-kp-kiv" secondAttribute="bottom" constant="15" id="6rj-cl-sHo"/>
+                            <constraint firstItem="CGb-up-nMI" firstAttribute="top" secondItem="kkA-Pw-uNR" secondAttribute="bottom" constant="47" id="CMU-U9-38B"/>
+                            <constraint firstItem="CGb-up-nMI" firstAttribute="leading" secondItem="FlE-TI-v62" secondAttribute="leading" id="RYt-X3-xDu"/>
+                            <constraint firstItem="pbB-eJ-Zay" firstAttribute="centerX" secondItem="CGb-up-nMI" secondAttribute="centerX" id="VDm-jr-1k4"/>
+                            <constraint firstItem="Tfc-kp-kiv" firstAttribute="top" secondItem="PbH-dU-wLW" secondAttribute="bottom" constant="13" id="X5u-5C-pER"/>
+                            <constraint firstAttribute="trailing" secondItem="CGb-up-nMI" secondAttribute="trailing" id="XZ6-lG-x4Y"/>
+                            <constraint firstItem="Tfc-kp-kiv" firstAttribute="centerX" secondItem="CGb-up-nMI" secondAttribute="centerX" id="a0o-A2-L2b"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="CGb-up-nMI" secondAttribute="bottom" constant="-6" id="a4O-OK-vja"/>
+                            <constraint firstItem="kkA-Pw-uNR" firstAttribute="leading" secondItem="fKI-n2-AAL" secondAttribute="leading" id="gFQ-mQ-ozW"/>
+                            <constraint firstItem="fKI-n2-AAL" firstAttribute="trailing" secondItem="Tfc-kp-kiv" secondAttribute="trailing" id="gUU-ON-8pX"/>
+                            <constraint firstItem="CGb-up-nMI" firstAttribute="top" secondItem="FlE-TI-v62" secondAttribute="top" constant="306" id="pVU-r6-Lb4"/>
+                            <constraint firstItem="kkA-Pw-uNR" firstAttribute="trailing" secondItem="fKI-n2-AAL" secondAttribute="trailing" id="uZ6-oW-VXI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gmsmapview" destination="CGb-up-nMI" id="XQ5-CV-s2G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ykq-mH-vpe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1175" y="-198"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="xTf-yL-g07">
+            <objects>
+                <viewController id="5p7-a0-Jde" customClass="MileageDetailsViewController" customModule="PetroLeage" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L9X-fg-JOb"/>
+                        <viewControllerLayoutGuide type="bottom" id="RwV-92-z3q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RBH-iA-Kme">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You need 15 litres of petrol equal to RM28.50 for your tank to be full" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2xo-4B-yV0">
+                                <rect key="frame" x="41" y="49" width="529" height="139"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="2xo-4B-yV0" secondAttribute="trailing" constant="14" id="KGo-su-Qol"/>
+                            <constraint firstItem="2xo-4B-yV0" firstAttribute="leading" secondItem="RBH-iA-Kme" secondAttribute="leadingMargin" constant="25" id="mRa-IP-5Ru"/>
+                            <constraint firstItem="RwV-92-z3q" firstAttribute="top" secondItem="2xo-4B-yV0" secondAttribute="bottom" constant="363" id="ooZ-ol-DIG"/>
+                            <constraint firstItem="2xo-4B-yV0" firstAttribute="top" secondItem="L9X-fg-JOb" secondAttribute="bottom" constant="29" id="zpq-xc-qHR"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="ZBh-y4-mGb" userLabel="MileageDetailsView"/>
+                    <connections>
+                        <outlet property="estimationlabel" destination="2xo-4B-yV0" id="XrD-Qs-062"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tgB-1p-zGW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2787" y="120"/>
+        </scene>
+        <!--Map View-->
+        <scene sceneID="u4Z-7r-aRR">
+            <objects>
+                <viewController id="cb4-x7-PKv" customClass="MapView" customModule="PetroLeage" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wkj-48-N6O"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mj1-tG-Qzh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DTZ-uz-FtS" customClass="GMSMapView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Pin" translatesAutoresizingMaskIntoConstraints="NO" id="Fpt-GX-PRY">
+                                <rect key="frame" x="285" y="245" width="30" height="55"/>
+                            </imageView>
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aK-Es-huZ">
+                                <rect key="frame" x="291" y="289" width="42" height="21"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mj1-tG-Qzh" firstAttribute="top" secondItem="Fpt-GX-PRY" secondAttribute="bottom" constant="251" id="VDB-JI-Est"/>
+                            <constraint firstItem="Mj1-tG-Qzh" firstAttribute="top" secondItem="9aK-Es-huZ" secondAttribute="bottom" constant="241" id="qBy-XL-d5i"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="0l7-HG-vLj">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="TIn-ks-LYU">
+                            <connections>
+                                <action selector="refreshData:" destination="cb4-x7-PKv" id="Uss-ZJ-pJH"/>
+                            </connections>
+                        </barButtonItem>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="eg4-MG-k5P">
+                            <rect key="frame" x="205" y="8" width="191" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="Normal"/>
+                                <segment title="Satellite"/>
+                                <segment title="Hybrid"/>
+                            </segments>
+                            <connections>
+                                <action selector="segmentedpressed:" destination="cb4-x7-PKv" eventType="valueChanged" id="yWR-0r-V7E"/>
+                            </connections>
+                        </segmentedControl>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="addressLabel" destination="9aK-Es-huZ" id="fmA-kt-VU4"/>
+                        <outlet property="mapCenterPinImage" destination="Fpt-GX-PRY" id="Gk7-Xc-FYg"/>
+                        <outlet property="mapview" destination="DTZ-uz-FtS" id="AJC-QE-118"/>
+                        <outlet property="segmentedcontrol" destination="eg4-MG-k5P" id="9CJ-a0-gFE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nZ4-cG-Pru" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4150" y="-570"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="rz8-K7-ktO">
+            <objects>
+                <tabBarController id="0Lf-tn-YOf" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="gAG-bc-shS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="8ul-Ro-2SB" kind="relationship" relationship="viewControllers" id="ogM-yo-8Ib"/>
+                        <segue destination="5p7-a0-Jde" kind="relationship" relationship="viewControllers" id="8Vx-YE-TC8"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K65-pU-xAH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1967" y="-212"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="9uy-2M-ZnR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8ul-Ro-2SB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 1" id="6lt-cH-D4G" userLabel="MapView"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yo6-Rh-b5C">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cb4-x7-PKv" kind="relationship" relationship="rootViewController" id="YgG-gv-Ji5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HwZ-ov-Un4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3338" y="-570"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Pin" width="30" height="55"/>
+    </resources>
+</document>

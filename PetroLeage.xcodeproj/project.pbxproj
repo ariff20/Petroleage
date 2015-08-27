@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22BAD72F1B8F3D25004BE5E6 /* FuelEstimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAD72E1B8F3D25004BE5E6 /* FuelEstimationController.swift */; };
+		22BAD7311B8F498F004BE5E6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAD7301B8F498F004BE5E6 /* MapView.swift */; };
+		22BAD7331B8F49A8004BE5E6 /* MileageDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAD7321B8F49A8004BE5E6 /* MileageDetailsController.swift */; };
+		22BAD7351B8F4A63004BE5E6 /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAD7341B8F4A63004BE5E6 /* GoogleDataProvider.swift */; };
+		22BAD7371B8F4A7F004BE5E6 /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAD7361B8F4A7F004BE5E6 /* GooglePlace.swift */; };
+		22BAD7391B8F4A98004BE5E6 /* MarkerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAD7381B8F4A98004BE5E6 /* MarkerInfoView.swift */; };
+		22BAD73B1B8F4AB1004BE5E6 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAD73A1B8F4AB1004BE5E6 /* UIViewExtension.swift */; };
+		22BAD73D1B8F4ACE004BE5E6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BAD73C1B8F4ACE004BE5E6 /* AVFoundation.framework */; };
+		22BAD73F1B8F4AEE004BE5E6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BAD73E1B8F4AEE004BE5E6 /* CoreData.framework */; };
+		22BAD7411B8F4AF5004BE5E6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BAD7401B8F4AF5004BE5E6 /* CoreLocation.framework */; };
+		22BAD7431B8F4AFE004BE5E6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BAD7421B8F4AFE004BE5E6 /* CoreText.framework */; };
+		22BAD7451B8F4B03004BE5E6 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BAD7441B8F4B03004BE5E6 /* GLKit.framework */; };
+		22BAD7471B8F4B0D004BE5E6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BAD7461B8F4B0D004BE5E6 /* ImageIO.framework */; };
+		22BAD7491B8F4B1D004BE5E6 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BAD7481B8F4B1D004BE5E6 /* libc++.dylib */; };
+		22BAD74B1B8F4B36004BE5E6 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BAD74A1B8F4B36004BE5E6 /* libicucore.dylib */; };
+		22BAD74D1B8F4B3C004BE5E6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BAD74C1B8F4B3C004BE5E6 /* libz.dylib */; };
+		22BAD74F1B8F4B45004BE5E6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BAD74E1B8F4B45004BE5E6 /* OpenGLES.framework */; };
+		22BAD7511B8F4B4D004BE5E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BAD7501B8F4B4D004BE5E6 /* QuartzCore.framework */; };
+		22BAD7531B8F4B56004BE5E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BAD7521B8F4B56004BE5E6 /* SystemConfiguration.framework */; };
+		22BAD7581B8F5946004BE5E6 /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAD7571B8F5946004BE5E6 /* PlaceMarker.swift */; };
+		22BAD75B1B8F6D79004BE5E6 /* MarkerInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22BAD75A1B8F6D79004BE5E6 /* MarkerInfoView.xib */; };
+		22D234231B8EE37D000A7784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D234221B8EE37D000A7784 /* AppDelegate.swift */; };
+		22D2342A1B8EE37D000A7784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D234281B8EE37D000A7784 /* Main.storyboard */; };
+		22D2342C1B8EE37D000A7784 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D2342B1B8EE37D000A7784 /* Images.xcassets */; };
+		22D2342F1B8EE37D000A7784 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22D2342D1B8EE37D000A7784 /* LaunchScreen.xib */; };
+		22D2343B1B8EE37D000A7784 /* PetroLeageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2343A1B8EE37D000A7784 /* PetroLeageTests.swift */; };
+		22D2344C1B8EEC78000A7784 /* PetrolCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2344B1B8EEC78000A7784 /* PetrolCalculator.swift */; };
+		401EC4B1CC0B49D53A124D12 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4BAD986D8A61217C9D6C67 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22D234351B8EE37D000A7784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22D234151B8EE37D000A7784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22D2341C1B8EE37D000A7784;
+			remoteInfo = PetroLeage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22BAD72E1B8F3D25004BE5E6 /* FuelEstimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelEstimationController.swift; sourceTree = "<group>"; };
+		22BAD7301B8F498F004BE5E6 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		22BAD7321B8F49A8004BE5E6 /* MileageDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MileageDetailsController.swift; sourceTree = "<group>"; };
+		22BAD7341B8F4A63004BE5E6 /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
+		22BAD7361B8F4A7F004BE5E6 /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
+		22BAD7381B8F4A98004BE5E6 /* MarkerInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerInfoView.swift; sourceTree = "<group>"; };
+		22BAD73A1B8F4AB1004BE5E6 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		22BAD73C1B8F4ACE004BE5E6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		22BAD73E1B8F4AEE004BE5E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		22BAD7401B8F4AF5004BE5E6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		22BAD7421B8F4AFE004BE5E6 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		22BAD7441B8F4B03004BE5E6 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		22BAD7461B8F4B0D004BE5E6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		22BAD7481B8F4B1D004BE5E6 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		22BAD74A1B8F4B36004BE5E6 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		22BAD74C1B8F4B3C004BE5E6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		22BAD74E1B8F4B45004BE5E6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		22BAD7501B8F4B4D004BE5E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		22BAD7521B8F4B56004BE5E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		22BAD7541B8F4C7E004BE5E6 /* PetroLeage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PetroLeage-Bridging-Header.h"; sourceTree = "<group>"; };
+		22BAD7571B8F5946004BE5E6 /* PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
+		22BAD75A1B8F6D79004BE5E6 /* MarkerInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkerInfoView.xib; sourceTree = "<group>"; };
+		22D2341D1B8EE37D000A7784 /* PetroLeage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetroLeage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D234211B8EE37D000A7784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D234221B8EE37D000A7784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22D234291B8EE37D000A7784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22D2342B1B8EE37D000A7784 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22D2342E1B8EE37D000A7784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		22D234341B8EE37D000A7784 /* PetroLeageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetroLeageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D234391B8EE37D000A7784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D2343A1B8EE37D000A7784 /* PetroLeageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetroLeageTests.swift; sourceTree = "<group>"; };
+		22D2344B1B8EEC78000A7784 /* PetrolCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetrolCalculator.swift; sourceTree = "<group>"; };
+		5A057774FD833F888402444C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BB4BAD986D8A61217C9D6C67 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55ACCDD5CD0500832E7723B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22D2341A1B8EE37D000A7784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BAD7531B8F4B56004BE5E6 /* SystemConfiguration.framework in Frameworks */,
+				22BAD7511B8F4B4D004BE5E6 /* QuartzCore.framework in Frameworks */,
+				22BAD74F1B8F4B45004BE5E6 /* OpenGLES.framework in Frameworks */,
+				22BAD74D1B8F4B3C004BE5E6 /* libz.dylib in Frameworks */,
+				22BAD74B1B8F4B36004BE5E6 /* libicucore.dylib in Frameworks */,
+				22BAD7491B8F4B1D004BE5E6 /* libc++.dylib in Frameworks */,
+				22BAD7471B8F4B0D004BE5E6 /* ImageIO.framework in Frameworks */,
+				22BAD7451B8F4B03004BE5E6 /* GLKit.framework in Frameworks */,
+				22BAD7431B8F4AFE004BE5E6 /* CoreText.framework in Frameworks */,
+				22BAD7411B8F4AF5004BE5E6 /* CoreLocation.framework in Frameworks */,
+				22BAD73F1B8F4AEE004BE5E6 /* CoreData.framework in Frameworks */,
+				22BAD73D1B8F4ACE004BE5E6 /* AVFoundation.framework in Frameworks */,
+				401EC4B1CC0B49D53A124D12 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D234311B8EE37D000A7784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22BAD7591B8F6CA3004BE5E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22BAD7381B8F4A98004BE5E6 /* MarkerInfoView.swift */,
+				22BAD75A1B8F6D79004BE5E6 /* MarkerInfoView.xib */,
+				22BAD73A1B8F4AB1004BE5E6 /* UIViewExtension.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		22D234141B8EE37D000A7784 = {
+			isa = PBXGroup;
+			children = (
+				22D2341F1B8EE37D000A7784 /* PetroLeage */,
+				22D234371B8EE37D000A7784 /* PetroLeageTests */,
+				22D2341E1B8EE37D000A7784 /* Products */,
+				E6DB7F94CFE350FAFCF57276 /* Pods */,
+				7F4EC9A8509B4291C4B40FD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22D2341E1B8EE37D000A7784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22D2341D1B8EE37D000A7784 /* PetroLeage.app */,
+				22D234341B8EE37D000A7784 /* PetroLeageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22D2341F1B8EE37D000A7784 /* PetroLeage */ = {
+			isa = PBXGroup;
+			children = (
+				22BAD7591B8F6CA3004BE5E6 /* View */,
+				22D2344A1B8EEC55000A7784 /* Controller */,
+				22D234441B8EE465000A7784 /* Model */,
+				22D234221B8EE37D000A7784 /* AppDelegate.swift */,
+				22D234281B8EE37D000A7784 /* Main.storyboard */,
+				22D2342B1B8EE37D000A7784 /* Images.xcassets */,
+				22D2342D1B8EE37D000A7784 /* LaunchScreen.xib */,
+				22D234201B8EE37D000A7784 /* Supporting Files */,
+				22BAD7541B8F4C7E004BE5E6 /* PetroLeage-Bridging-Header.h */,
+			);
+			path = PetroLeage;
+			sourceTree = "<group>";
+		};
+		22D234201B8EE37D000A7784 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22D234211B8EE37D000A7784 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22D234371B8EE37D000A7784 /* PetroLeageTests */ = {
+			isa = PBXGroup;
+			children = (
+				22D2343A1B8EE37D000A7784 /* PetroLeageTests.swift */,
+				22D234381B8EE37D000A7784 /* Supporting Files */,
+			);
+			path = PetroLeageTests;
+			sourceTree = "<group>";
+		};
+		22D234381B8EE37D000A7784 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22D234391B8EE37D000A7784 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22D234441B8EE465000A7784 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22D234451B8EE46B000A7784 /* Client */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		22D234451B8EE46B000A7784 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				22BAD7341B8F4A63004BE5E6 /* GoogleDataProvider.swift */,
+				22BAD7361B8F4A7F004BE5E6 /* GooglePlace.swift */,
+				22BAD7571B8F5946004BE5E6 /* PlaceMarker.swift */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		22D2344A1B8EEC55000A7784 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22D2344B1B8EEC78000A7784 /* PetrolCalculator.swift */,
+				22BAD72E1B8F3D25004BE5E6 /* FuelEstimationController.swift */,
+				22BAD7301B8F498F004BE5E6 /* MapView.swift */,
+				22BAD7321B8F49A8004BE5E6 /* MileageDetailsController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7F4EC9A8509B4291C4B40FD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22BAD7521B8F4B56004BE5E6 /* SystemConfiguration.framework */,
+				22BAD7501B8F4B4D004BE5E6 /* QuartzCore.framework */,
+				22BAD74E1B8F4B45004BE5E6 /* OpenGLES.framework */,
+				22BAD74C1B8F4B3C004BE5E6 /* libz.dylib */,
+				22BAD74A1B8F4B36004BE5E6 /* libicucore.dylib */,
+				22BAD7481B8F4B1D004BE5E6 /* libc++.dylib */,
+				22BAD7461B8F4B0D004BE5E6 /* ImageIO.framework */,
+				22BAD7441B8F4B03004BE5E6 /* GLKit.framework */,
+				22BAD7421B8F4AFE004BE5E6 /* CoreText.framework */,
+				22BAD7401B8F4AF5004BE5E6 /* CoreLocation.framework */,
+				22BAD73E1B8F4AEE004BE5E6 /* CoreData.framework */,
+				22BAD73C1B8F4ACE004BE5E6 /* AVFoundation.framework */,
+				BB4BAD986D8A61217C9D6C67 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6DB7F94CFE350FAFCF57276 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F55ACCDD5CD0500832E7723B /* Pods.debug.xcconfig */,
+				5A057774FD833F888402444C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22D2341C1B8EE37D000A7784 /* PetroLeage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D2343E1B8EE37D000A7784 /* Build configuration list for PBXNativeTarget "PetroLeage" */;
+			buildPhases = (
+				57BE49C307B1D1048AA5D5C1 /* Check Pods Manifest.lock */,
+				22D234191B8EE37D000A7784 /* Sources */,
+				22D2341A1B8EE37D000A7784 /* Frameworks */,
+				22D2341B1B8EE37D000A7784 /* Resources */,
+				87FFC806C08F1B9EDF92FB4E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetroLeage;
+			productName = PetroLeage;
+			productReference = 22D2341D1B8EE37D000A7784 /* PetroLeage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22D234331B8EE37D000A7784 /* PetroLeageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D234411B8EE37D000A7784 /* Build configuration list for PBXNativeTarget "PetroLeageTests" */;
+			buildPhases = (
+				22D234301B8EE37D000A7784 /* Sources */,
+				22D234311B8EE37D000A7784 /* Frameworks */,
+				22D234321B8EE37D000A7784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22D234361B8EE37D000A7784 /* PBXTargetDependency */,
+			);
+			name = PetroLeageTests;
+			productName = PetroLeageTests;
+			productReference = 22D234341B8EE37D000A7784 /* PetroLeageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22D234151B8EE37D000A7784 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Syed Mohamed Ariff";
+				TargetAttributes = {
+					22D2341C1B8EE37D000A7784 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					22D234331B8EE37D000A7784 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 22D2341C1B8EE37D000A7784;
+					};
+				};
+			};
+			buildConfigurationList = 22D234181B8EE37D000A7784 /* Build configuration list for PBXProject "PetroLeage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22D234141B8EE37D000A7784;
+			productRefGroup = 22D2341E1B8EE37D000A7784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22D2341C1B8EE37D000A7784 /* PetroLeage */,
+				22D234331B8EE37D000A7784 /* PetroLeageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22D2341B1B8EE37D000A7784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BAD75B1B8F6D79004BE5E6 /* MarkerInfoView.xib in Resources */,
+				22D2342A1B8EE37D000A7784 /* Main.storyboard in Resources */,
+				22D2342F1B8EE37D000A7784 /* LaunchScreen.xib in Resources */,
+				22D2342C1B8EE37D000A7784 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D234321B8EE37D000A7784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57BE49C307B1D1048AA5D5C1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87FFC806C08F1B9EDF92FB4E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22D234191B8EE37D000A7784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BAD7391B8F4A98004BE5E6 /* MarkerInfoView.swift in Sources */,
+				22BAD72F1B8F3D25004BE5E6 /* FuelEstimationController.swift in Sources */,
+				22BAD7351B8F4A63004BE5E6 /* GoogleDataProvider.swift in Sources */,
+				22BAD7311B8F498F004BE5E6 /* MapView.swift in Sources */,
+				22D2344C1B8EEC78000A7784 /* PetrolCalculator.swift in Sources */,
+				22BAD7581B8F5946004BE5E6 /* PlaceMarker.swift in Sources */,
+				22D234231B8EE37D000A7784 /* AppDelegate.swift in Sources */,
+				22BAD73B1B8F4AB1004BE5E6 /* UIViewExtension.swift in Sources */,
+				22BAD7331B8F49A8004BE5E6 /* MileageDetailsController.swift in Sources */,
+				22BAD7371B8F4A7F004BE5E6 /* GooglePlace.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D234301B8EE37D000A7784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D2343B1B8EE37D000A7784 /* PetroLeageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22D234361B8EE37D000A7784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22D2341C1B8EE37D000A7784 /* PetroLeage */;
+			targetProxy = 22D234351B8EE37D000A7784 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22D234281B8EE37D000A7784 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22D234291B8EE37D000A7784 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22D2342D1B8EE37D000A7784 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22D2342E1B8EE37D000A7784 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22D2343C1B8EE37D000A7784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22D2343D1B8EE37D000A7784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22D2343F1B8EE37D000A7784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F55ACCDD5CD0500832E7723B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PetroLeage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetroLeage/PetroLeage-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22D234401B8EE37D000A7784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A057774FD833F888402444C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PetroLeage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetroLeage/PetroLeage-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		22D234421B8EE37D000A7784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PetroLeageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetroLeage.app/PetroLeage";
+			};
+			name = Debug;
+		};
+		22D234431B8EE37D000A7784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PetroLeageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetroLeage.app/PetroLeage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22D234181B8EE37D000A7784 /* Build configuration list for PBXProject "PetroLeage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D2343C1B8EE37D000A7784 /* Debug */,
+				22D2343D1B8EE37D000A7784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D2343E1B8EE37D000A7784 /* Build configuration list for PBXNativeTarget "PetroLeage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D2343F1B8EE37D000A7784 /* Debug */,
+				22D234401B8EE37D000A7784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D234411B8EE37D000A7784 /* Build configuration list for PBXNativeTarget "PetroLeageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D234421B8EE37D000A7784 /* Debug */,
+				22D234431B8EE37D000A7784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22D234151B8EE37D000A7784 /* Project object */;
+}
