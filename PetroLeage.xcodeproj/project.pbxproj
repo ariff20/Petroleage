@@ -16,6 +16,7 @@
 		2283F4C71B9001C5000B7E36 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283F4C61B9001C5000B7E36 /* Accounts.framework */; };
 		2283F4C91B9001CC000B7E36 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283F4C81B9001CC000B7E36 /* Social.framework */; };
 		2283F4CB1B9008EC000B7E36 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2283F4CA1B9008EC000B7E36 /* WelcomeViewController.swift */; };
+		2283F4CD1B900D01000B7E36 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2283F4CC1B900D01000B7E36 /* SignupViewController.swift */; };
 		22BAD7311B8F498F004BE5E6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAD7301B8F498F004BE5E6 /* MapView.swift */; };
 		22BAD7331B8F49A8004BE5E6 /* MileageDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAD7321B8F49A8004BE5E6 /* MileageDetailsController.swift */; };
 		22BAD7351B8F4A63004BE5E6 /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAD7341B8F4A63004BE5E6 /* GoogleDataProvider.swift */; };
@@ -66,6 +67,7 @@
 		2283F4C61B9001C5000B7E36 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		2283F4C81B9001CC000B7E36 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		2283F4CA1B9008EC000B7E36 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		2283F4CC1B900D01000B7E36 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		22BAD7301B8F498F004BE5E6 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		22BAD7321B8F49A8004BE5E6 /* MileageDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MileageDetailsController.swift; sourceTree = "<group>"; };
 		22BAD7341B8F4A63004BE5E6 /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				22BAD7301B8F498F004BE5E6 /* MapView.swift */,
 				22BAD7321B8F49A8004BE5E6 /* MileageDetailsController.swift */,
 				2283F4CA1B9008EC000B7E36 /* WelcomeViewController.swift */,
+				2283F4CC1B900D01000B7E36 /* SignupViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				22BAD73B1B8F4AB1004BE5E6 /* UIViewExtension.swift in Sources */,
 				2283F4BF1B8FF111000B7E36 /* ParseObject.swift in Sources */,
 				22BAD7331B8F49A8004BE5E6 /* MileageDetailsController.swift in Sources */,
+				2283F4CD1B900D01000B7E36 /* SignupViewController.swift in Sources */,
 				22BAD7371B8F4A7F004BE5E6 /* GooglePlace.swift in Sources */,
 				2283F4CB1B9008EC000B7E36 /* WelcomeViewController.swift in Sources */,
 			);

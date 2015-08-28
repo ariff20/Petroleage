@@ -23,7 +23,7 @@ class WelcomeViewController : UIViewController, PFLogInViewControllerDelegate, P
         
         if (PFUser.currentUser() == nil) {
             
-            self.logInViewController.fields = PFLogInFields.UsernameAndPassword | PFLogInFields.LogInButton | PFLogInFields.SignUpButton | PFLogInFields.PasswordForgotten | PFLogInFields.DismissButton
+            //self.logInViewController.fields = PFLogInFields.UsernameAndPassword | PFLogInFields.LogInButton | PFLogInFields.SignUpButton | PFLogInFields.PasswordForgotten | PFLogInFields.DismissButton
             
             var logInLogoTitle = UILabel()
             logInLogoTitle.text = "Vea Software"
