@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223D19081B902CF800222442 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223D19071B902CF800222442 /* CoreGraphics.framework */; };
+		223D190D1B902DA600222442 /* PNChartLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D190A1B902DA600222442 /* PNChartLabel.swift */; };
+		223D190E1B902DA600222442 /* PNLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D190B1B902DA600222442 /* PNLineChart.swift */; };
+		223D190F1B902DA600222442 /* PNLineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D190C1B902DA600222442 /* PNLineChartData.swift */; };
+		223D19131B902DCA00222442 /* PNValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D19101B902DCA00222442 /* PNValue.swift */; };
+		223D19141B902DCA00222442 /* PNChartConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D19111B902DCA00222442 /* PNChartConfig.swift */; };
+		223D19151B902DCA00222442 /* PNChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D19121B902DCA00222442 /* PNChartDelegate.swift */; };
 		2283F4B71B8FE47C000B7E36 /* MapTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2283F4B61B8FE47C000B7E36 /* MapTasks.swift */; };
 		2283F4BB1B8FEFCA000B7E36 /* ParseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2283F4BA1B8FEFCA000B7E36 /* ParseConstants.swift */; };
-		2283F4BD1B8FF008000B7E36 /* ParseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2283F4BC1B8FF008000B7E36 /* ParseClient.swift */; };
 		2283F4BF1B8FF111000B7E36 /* ParseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2283F4BE1B8FF111000B7E36 /* ParseObject.swift */; };
 		2283F4C31B900192000B7E36 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283F4C21B900192000B7E36 /* MobileCoreServices.framework */; };
 		2283F4C51B9001B4000B7E36 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283F4C41B9001B4000B7E36 /* libsqlite3.dylib */; };
@@ -17,6 +23,7 @@
 		2283F4C91B9001CC000B7E36 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283F4C81B9001CC000B7E36 /* Social.framework */; };
 		2283F4CB1B9008EC000B7E36 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2283F4CA1B9008EC000B7E36 /* WelcomeViewController.swift */; };
 		2283F4CD1B900D01000B7E36 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2283F4CC1B900D01000B7E36 /* SignupViewController.swift */; };
+		2283F4CF1B901816000B7E36 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2283F4CE1B901816000B7E36 /* ChartsViewController.swift */; };
 		22BAD7311B8F498F004BE5E6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAD7301B8F498F004BE5E6 /* MapView.swift */; };
 		22BAD7331B8F49A8004BE5E6 /* MileageDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAD7321B8F49A8004BE5E6 /* MileageDetailsController.swift */; };
 		22BAD7351B8F4A63004BE5E6 /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAD7341B8F4A63004BE5E6 /* GoogleDataProvider.swift */; };
@@ -57,9 +64,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		223D19071B902CF800222442 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		223D190A1B902DA600222442 /* PNChartLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNChartLabel.swift; sourceTree = "<group>"; };
+		223D190B1B902DA600222442 /* PNLineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNLineChart.swift; sourceTree = "<group>"; };
+		223D190C1B902DA600222442 /* PNLineChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNLineChartData.swift; sourceTree = "<group>"; };
+		223D19101B902DCA00222442 /* PNValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNValue.swift; sourceTree = "<group>"; };
+		223D19111B902DCA00222442 /* PNChartConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNChartConfig.swift; sourceTree = "<group>"; };
+		223D19121B902DCA00222442 /* PNChartDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNChartDelegate.swift; sourceTree = "<group>"; };
 		2283F4B61B8FE47C000B7E36 /* MapTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTasks.swift; sourceTree = "<group>"; };
 		2283F4BA1B8FEFCA000B7E36 /* ParseConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseConstants.swift; sourceTree = "<group>"; };
-		2283F4BC1B8FF008000B7E36 /* ParseClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseClient.swift; sourceTree = "<group>"; };
 		2283F4BE1B8FF111000B7E36 /* ParseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseObject.swift; sourceTree = "<group>"; };
 		2283F4C01B8FF9EB000B7E36 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Downloads/ParsePlatform-LoginAndSignUpTutorial-0710943/Parse.framework"; sourceTree = "<group>"; };
 		2283F4C21B900192000B7E36 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -68,6 +81,7 @@
 		2283F4C81B9001CC000B7E36 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		2283F4CA1B9008EC000B7E36 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		2283F4CC1B900D01000B7E36 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		2283F4CE1B901816000B7E36 /* ChartsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
 		22BAD7301B8F498F004BE5E6 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		22BAD7321B8F49A8004BE5E6 /* MileageDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MileageDetailsController.swift; sourceTree = "<group>"; };
 		22BAD7341B8F4A63004BE5E6 /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
@@ -109,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223D19081B902CF800222442 /* CoreGraphics.framework in Frameworks */,
 				2283F4C91B9001CC000B7E36 /* Social.framework in Frameworks */,
 				2283F4C71B9001C5000B7E36 /* Accounts.framework in Frameworks */,
 				2283F4C51B9001B4000B7E36 /* libsqlite3.dylib in Frameworks */,
@@ -139,10 +154,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		223D19091B902D8700222442 /* PNChart */ = {
+			isa = PBXGroup;
+			children = (
+				223D19101B902DCA00222442 /* PNValue.swift */,
+				223D19111B902DCA00222442 /* PNChartConfig.swift */,
+				223D19121B902DCA00222442 /* PNChartDelegate.swift */,
+				223D190A1B902DA600222442 /* PNChartLabel.swift */,
+				223D190B1B902DA600222442 /* PNLineChart.swift */,
+				223D190C1B902DA600222442 /* PNLineChartData.swift */,
+			);
+			name = PNChart;
+			sourceTree = "<group>";
+		};
 		2283F4B81B8FEF9B000B7E36 /* ParseClient */ = {
 			isa = PBXGroup;
 			children = (
-				2283F4BC1B8FF008000B7E36 /* ParseClient.swift */,
 				2283F4BA1B8FEFCA000B7E36 /* ParseConstants.swift */,
 				2283F4BE1B8FF111000B7E36 /* ParseObject.swift */,
 			);
@@ -163,6 +190,7 @@
 		22BAD7591B8F6CA3004BE5E6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				223D19091B902D8700222442 /* PNChart */,
 				22BAD7381B8F4A98004BE5E6 /* MarkerInfoView.swift */,
 				22BAD75A1B8F6D79004BE5E6 /* MarkerInfoView.xib */,
 				22BAD73A1B8F4AB1004BE5E6 /* UIViewExtension.swift */,
@@ -256,6 +284,7 @@
 				22BAD7321B8F49A8004BE5E6 /* MileageDetailsController.swift */,
 				2283F4CA1B9008EC000B7E36 /* WelcomeViewController.swift */,
 				2283F4CC1B900D01000B7E36 /* SignupViewController.swift */,
+				2283F4CE1B901816000B7E36 /* ChartsViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -263,6 +292,7 @@
 		7F4EC9A8509B4291C4B40FD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				223D19071B902CF800222442 /* CoreGraphics.framework */,
 				2283F4C81B9001CC000B7E36 /* Social.framework */,
 				2283F4C61B9001C5000B7E36 /* Accounts.framework */,
 				2283F4C41B9001B4000B7E36 /* libsqlite3.dylib */,
@@ -435,14 +465,20 @@
 				2283F4BB1B8FEFCA000B7E36 /* ParseConstants.swift in Sources */,
 				22BAD7351B8F4A63004BE5E6 /* GoogleDataProvider.swift in Sources */,
 				22BAD7311B8F498F004BE5E6 /* MapView.swift in Sources */,
+				223D19131B902DCA00222442 /* PNValue.swift in Sources */,
 				22D2344C1B8EEC78000A7784 /* PetrolCalculator.swift in Sources */,
-				2283F4BD1B8FF008000B7E36 /* ParseClient.swift in Sources */,
 				22BAD7581B8F5946004BE5E6 /* PlaceMarker.swift in Sources */,
 				22D234231B8EE37D000A7784 /* AppDelegate.swift in Sources */,
+				223D190F1B902DA600222442 /* PNLineChartData.swift in Sources */,
+				2283F4CF1B901816000B7E36 /* ChartsViewController.swift in Sources */,
 				22BAD73B1B8F4AB1004BE5E6 /* UIViewExtension.swift in Sources */,
+				223D19141B902DCA00222442 /* PNChartConfig.swift in Sources */,
+				223D19151B902DCA00222442 /* PNChartDelegate.swift in Sources */,
 				2283F4BF1B8FF111000B7E36 /* ParseObject.swift in Sources */,
+				223D190E1B902DA600222442 /* PNLineChart.swift in Sources */,
 				22BAD7331B8F49A8004BE5E6 /* MileageDetailsController.swift in Sources */,
 				2283F4CD1B900D01000B7E36 /* SignupViewController.swift in Sources */,
+				223D190D1B902DA600222442 /* PNChartLabel.swift in Sources */,
 				22BAD7371B8F4A7F004BE5E6 /* GooglePlace.swift in Sources */,
 				2283F4CB1B9008EC000B7E36 /* WelcomeViewController.swift in Sources */,
 			);

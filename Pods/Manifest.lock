@@ -6,16 +6,22 @@ PODS:
   - ParseUI (1.1.5):
     - Bolts/Tasks (~> 1.2)
     - Parse (~> 1.8)
+  - PNChart (0.8.7):
+    - UICountingLabel (~> 1.2.0)
+  - UICountingLabel (1.2.0)
 
 DEPENDENCIES:
   - GoogleMaps
   - Parse
   - ParseUI
+  - PNChart
 
 SPEC CHECKSUMS:
   Bolts: 7686a5cb204d1ac54cee26f12d9b7622db3f80d1
   GoogleMaps: 5c92e599b07b0a2a9b367c5dd128edc629bddfea
   Parse: 188601c6cd91fae55906badd283b513104a3a8c9
   ParseUI: 2c53621ed028ee793f5ab92a551b099689265525
+  PNChart: c1755716bbd45386d2035b2bf2ce73e6d3f8cb22
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
 
 COCOAPODS: 0.38.2

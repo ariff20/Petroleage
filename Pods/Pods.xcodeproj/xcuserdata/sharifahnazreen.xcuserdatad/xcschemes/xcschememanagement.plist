@@ -4,7 +4,32 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PNChart.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Parse.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ParseUI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UICountingLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -12,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>11FDABB619D7A4ADFDA50C79D00F1D77</key>
+		<key>0FCB277B72887EA97F7AC901B7EA5C4C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1469924FC52F60B0068FA24EEFCB3EFC</key>
+		<key>17EA9C8673D0BCA9B8130DCAA93FBEFE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8A5E54941769F502C47E59574B295569</key>
+		<key>BE12FD5057D5FFA1777EFD6FEB6344B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BE575ED4C31050771579B35B89A2E2AB</key>
+		<key>C2C3E85E40E00E69D2608EAD01CF6E6D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DA8EAD3D97D8E4E6D1312E38B5A5E6F2</key>
+		<key>CAFE1DF5374421864D2F1A3CECC7621F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF6B62D79728EF0641BA03AAAE9C576B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

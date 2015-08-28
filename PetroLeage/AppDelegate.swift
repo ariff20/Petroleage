@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
    let googleMapsApiKey = "AIzaSyCjO-DJTaJRRmN9aYR7akAZla3z1D9OY5Q"
-   
+   var car = [ParseObject]()
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         Parse.setApplicationId("rjHGobCexs7Ez4d6JlxItv3B0Z26Ucn9BcirSEKT", clientKey: "1Mi6hbnv4sLma2chKTRo1mkSB12UZUb5n7ee1VYX")

@@ -10,12 +10,8 @@ import Foundation
 
 struct ParseObject {
     var Car_model : String
-    var Current_fuel : Int
-    var estimated_fuel : Int
+    var car_brand : String
+    var engine_cc : String
 }
 
-class FuelDetails : NSObject {
-    var Car_model : String? = ""
-    var Current_fuel : Int? = 0
-    var estimated_fuel : Int? = 0
-}
+
