@@ -26,13 +26,73 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PetroLeage/FuelEstimationController.swift"
-            timestampString = "462373375.992682"
+            timestampString = "462407469.520651"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "FuelEstimationController"
-            landmarkType = "3">
+            startingLineNumber = "19"
+            endingLineNumber = "19">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PetroLeage.FuelEstimationController.gmsmapview.getter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.GMSMapView&gt;"
+                  moduleName = "PetroLeage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sharifahnazreen/Desktop/Petroleage/PetroLeage/FuelEstimationController.swift"
+                  timestampString = "462412732.634601"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PetroLeage.FuelEstimationController.gmsmapview.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.GMSMapView&gt;"
+                  moduleName = "PetroLeage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sharifahnazreen/Desktop/Petroleage/PetroLeage/FuelEstimationController.swift"
+                  timestampString = "462412732.635255"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PetroLeage.FuelEstimationController.init (PetroLeage.FuelEstimationController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; PetroLeage.FuelEstimationController"
+                  moduleName = "PetroLeage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sharifahnazreen/Desktop/Petroleage/PetroLeage/FuelEstimationController.swift"
+                  timestampString = "462412732.635471"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "261">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PetroLeage.FuelEstimationController.init (PetroLeage.FuelEstimationController.Type)(coder : ObjectiveC.NSCoder) -&gt; PetroLeage.FuelEstimationController"
+                  moduleName = "PetroLeage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sharifahnazreen/Desktop/Petroleage/PetroLeage/FuelEstimationController.swift"
+                  timestampString = "462412732.635688"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,13 +102,41 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PetroLeage/MapView.swift"
-            timestampString = "462387128.845154"
+            timestampString = "462393682.786607"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
             landmarkName = "locationManager(_:didUpdateLocations:)"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PetroLeage/FuelEstimationController.swift"
+            timestampString = "462412732.255982"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PetroLeage/FuelEstimationController.swift"
+            timestampString = "462412732.255982"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
